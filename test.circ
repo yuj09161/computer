@@ -227,5 +227,65 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(570,260)" to="(570,270)"/>
+    <wire from="(360,270)" to="(410,270)"/>
+    <wire from="(470,260)" to="(470,270)"/>
+    <wire from="(400,260)" to="(400,280)"/>
+    <wire from="(490,260)" to="(490,280)"/>
+    <wire from="(580,230)" to="(580,260)"/>
+    <wire from="(400,230)" to="(400,260)"/>
+    <wire from="(490,230)" to="(490,260)"/>
+    <wire from="(580,260)" to="(580,280)"/>
+    <wire from="(360,230)" to="(400,230)"/>
+    <wire from="(400,230)" to="(490,230)"/>
+    <wire from="(490,230)" to="(580,230)"/>
+    <wire from="(570,270)" to="(590,270)"/>
+    <wire from="(540,260)" to="(560,260)"/>
+    <wire from="(560,210)" to="(580,210)"/>
+    <wire from="(470,270)" to="(500,270)"/>
+    <wire from="(640,210)" to="(660,210)"/>
+    <wire from="(460,210)" to="(480,210)"/>
+    <wire from="(450,260)" to="(460,260)"/>
+    <wire from="(400,260)" to="(410,260)"/>
+    <wire from="(400,280)" to="(410,280)"/>
+    <wire from="(460,260)" to="(470,260)"/>
+    <wire from="(490,280)" to="(500,280)"/>
+    <wire from="(490,260)" to="(500,260)"/>
+    <wire from="(460,210)" to="(460,260)"/>
+    <wire from="(560,210)" to="(560,260)"/>
+    <wire from="(640,210)" to="(640,260)"/>
+    <wire from="(560,260)" to="(570,260)"/>
+    <wire from="(580,280)" to="(590,280)"/>
+    <wire from="(580,260)" to="(590,260)"/>
+    <wire from="(630,260)" to="(640,260)"/>
+    <comp lib="4" loc="(450,260)" name="J-K Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="4" loc="(540,260)" name="J-K Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(580,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(480,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(660,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(510,410)" name="Counter"/>
+    <comp lib="0" loc="(360,270)" name="Clock"/>
+    <comp lib="4" loc="(630,260)" name="J-K Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(360,230)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
   </circuit>
 </project>
