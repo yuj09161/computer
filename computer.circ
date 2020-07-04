@@ -3321,6 +3321,7 @@
     <comp lib="0" loc="(960,340)" name="Pin">
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
+      <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="1" loc="(140,210)" name="AND Gate">
