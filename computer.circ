@@ -3679,17 +3679,6 @@
       <a name="facing" val="north"/>
       <a name="label" val="D21"/>
     </comp>
-    <comp lib="0" loc="(310,280)" name="Splitter">
-      <a name="appear" val="right"/>
-      <a name="bit0" val="1"/>
-      <a name="bit2" val="1"/>
-      <a name="bit3" val="1"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="incoming" val="8"/>
-    </comp>
     <comp lib="0" loc="(310,370)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
@@ -3817,34 +3806,30 @@
     <comp lib="5" loc="(910,500)" name="LED"/>
     <comp lib="5" loc="(910,520)" name="LED"/>
     <comp lib="5" loc="(910,540)" name="LED"/>
+    <comp loc="(320,290)" name="Buffer"/>
     <comp loc="(400,270)" name="CMD_4"/>
     <comp loc="(550,330)" name="PU"/>
     <comp loc="(560,450)" name="Regist"/>
-    <comp loc="(690,610)" name="Buffer"/>
     <wire from="(110,190)" to="(300,190)"/>
     <wire from="(110,340)" to="(240,340)"/>
     <wire from="(110,460)" to="(290,460)"/>
     <wire from="(230,160)" to="(230,300)"/>
-    <wire from="(230,300)" to="(310,300)"/>
+    <wire from="(230,300)" to="(280,300)"/>
     <wire from="(230,310)" to="(230,480)"/>
-    <wire from="(230,310)" to="(290,310)"/>
+    <wire from="(230,310)" to="(280,310)"/>
     <wire from="(240,290)" to="(240,340)"/>
-    <wire from="(240,290)" to="(290,290)"/>
-    <wire from="(290,280)" to="(290,290)"/>
-    <wire from="(290,280)" to="(310,280)"/>
-    <wire from="(290,310)" to="(290,320)"/>
-    <wire from="(290,320)" to="(470,320)"/>
+    <wire from="(240,290)" to="(280,290)"/>
     <wire from="(290,330)" to="(290,460)"/>
     <wire from="(290,460)" to="(380,460)"/>
     <wire from="(300,190)" to="(300,330)"/>
     <wire from="(300,190)" to="(480,190)"/>
-    <wire from="(310,300)" to="(310,310)"/>
-    <wire from="(310,310)" to="(470,310)"/>
-    <wire from="(310,330)" to="(310,350)"/>
+    <wire from="(310,340)" to="(310,350)"/>
     <wire from="(310,350)" to="(310,370)"/>
     <wire from="(310,350)" to="(380,350)"/>
-    <wire from="(330,290)" to="(350,290)"/>
-    <wire from="(330,300)" to="(400,300)"/>
+    <wire from="(320,290)" to="(350,290)"/>
+    <wire from="(320,300)" to="(400,300)"/>
+    <wire from="(320,310)" to="(470,310)"/>
+    <wire from="(320,320)" to="(470,320)"/>
     <wire from="(350,270)" to="(350,290)"/>
     <wire from="(350,270)" to="(370,270)"/>
     <wire from="(380,290)" to="(380,350)"/>
